@@ -1,0 +1,17 @@
+{
+    /* List of Babel presets to use */
+    "presets": [
+        /* Transform JSX syntax to plain JavaScript */
+        "@babel/preset-react",
+        // /* Transform ES2015+ syntax to ES5 for better browser compatibility */
+        "@babel/preset-env"
+    ]
+}
+/*
+Basics:
+
+configuring presets in a .babelrc file.
+
+@babel/core module provides the basic functionality for transpiling modern JavaScript code, while the @babel/preset-env and @babel/preset-react presets are used to provide additional transformations for specific use cases.
+
+*/
